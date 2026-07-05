@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shoppings</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+
+   <!--custom css-->
+   
+
+   
+  <!--box icons-->
+    
+    
+</head>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+<body>
+<header class="header">
+    <nav class="navbar">
+        <a href="#" class="logo"> Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+
+<h1 class="left">Welcome To My Website</h1>
+
+  <!--home section desingn !-->
+
+   <section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1 class="left">Huzaifa Ali Ghouri</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nobis reiciendis 
+            minima explicabo voluptatibus, amet quod itaque?</p>
+<div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                 <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                  <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            
+            </div>
+
+   <a href="#" class="btn">Download CV</a>
+
+
+    </div>
+    <div class="home-img">
+        <img src="image/images.new_background-removebg-preview.png" height="1200px" alt="">
+
+    </div>
+   </section>
+
+<script>
+var typed = new Typed(".multiple-text", {
+    strings: ["Frontend Developer", "Web Designer", "Freelancer"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});
+
+window.addEventListener("scroll", () => {
+    document.querySelector(".header").classList.toggle("sticky", window.scrollY > 100);
+});
+</script>
+
+  <!-- about section desingn !-->
+
+ <section class="about" id="about">
+    <div class="about-img left">
+        <img src="image/images.new_background-removebg-preview.png" height="1200px" alt="">
+    </div>
+
+    <div class="about-content right">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer!</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+</section>
+    <!--services custom desingn !-->
+    
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+              <i class='bx bx-code-alt'></i>
+                <h3>Web Developement</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias suscipit nisi harum 
+                hic quis dignissimos corrupti inventore nobis quasi dolores!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+             <div class="services-box">
+           <i class='bx bxs-paint'></i>
+                <h3>Graphic desingn</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias suscipit nisi harum 
+                hic quis dignissimos corrupti inventore nobis quasi dolores!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+             <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias suscipit nisi harum 
+                hic quis dignissimos corrupti inventore nobis quasi dolores!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+  <!-- portfolio section desingn -->
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>project</span></h2>
+
+   <div class="portfolio-container">
+    <div class="portfolio-box">
+        <img src="image/web site image 1.png" alt="">
+        <div class="portfolio-layer">
+            <h4>Web Desingn</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, similique!
+            </p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+    
+    <div class="portfolio-box">
+        <img src="image/web site image 2.png" alt="" >
+        <div class="portfolio-layer">
+            <h4>Web Desingn</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, similique!
+            </p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <img src="image/web site images 3.png" alt="" >
+        <div class="portfolio-layer">
+            <h4>Web Desingn</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, similique!
+            </p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <img src="image/web site images 4.png" alt="" >
+        <div class="portfolio-layer">
+            <h4>Web Desingn</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, similique!
+            </p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <img src="image/web site images 5.png" alt="">
+        <div class="portfolio-layer">
+            <h4>Web Desingn</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, similique!
+            </p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <img src="image/web site images 6.jpg" alt="">
+        <div class="portfolio-layer">
+            <h4>Web Desingn</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, similique!
+            </p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+   </div>
+
+  </section>
+
+  <!--contact section Desingn!-->
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="Email" placeholder="Email Adress">
+        </div>
+         <div class="input-box">
+            <input type="Number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="send Message" class="btn">
+    </form>
+  </section>
+ 
+  <!--footer desingn !-->
+
+  <footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by codehell | All Rights Reserved</p>
+    </div>
+    <div class="footer-icontop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+<!--scroll reveal !-->
+
+<!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+
+
+ <!--custom js-->
+
+
+
+</body>
+</html>
